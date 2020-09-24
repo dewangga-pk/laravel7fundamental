@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\Route;
 // Route::view('contact','contact');
 // Route::view('series/create','series.create');
 
+// Route::get('/',function(){
+//   $name = "Dewangga Putra Kuswanto";
+//   return view('welcome',['name'=> $name]);
+// });
+
 Route::get('/',function(){
   $postBody = "Lorem ipsum dolor sit amet, consectetur
   adipisicing elit, sed do eiusmod tempor incididunt ut
