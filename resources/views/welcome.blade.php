@@ -5,11 +5,11 @@
     <title>Documents</title>
   </head>
   <body>
+    <h1>
+      myPost tittle
+    </h1>
     <p>
-      My name is {{$name}}
-    </p>
-    <p>
-      My name is {!! $name !!}
+      {!! nl2br($body) !!}
     </p>
   </body>
 </html>
