@@ -2,9 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Documents</title>
   </head>
   <body>
-    <p>Welcome</p>
+    <p>
+      My name is {{$name}}
+    </p>
+    <p>
+      My name is {!! $name !!}
+    </p>
   </body>
 </html>
