@@ -5,6 +5,6 @@
     <title></title>
   </head>
   <body>
-    <p>Welcome</p>
+    <p>contact</p>
   </body>
 </html>
