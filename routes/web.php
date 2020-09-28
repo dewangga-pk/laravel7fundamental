@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 //   return view('welcome',['name'=> $name]);
 // });
 
-Route::get('/',function(){
-  return view('home');
-});
-Route::view('about','about');
-Route::view('contact','contact');
-Route::view('login','login');
+Route::get('/', 'HomeController');
+
+Route::view('about', 'about');
+Route::view('contact', 'contact');
+Route::view('login', 'login');

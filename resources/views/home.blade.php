@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-    Home
+My name is {{$name}}
 @endsection
